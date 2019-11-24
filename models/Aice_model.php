@@ -1,9 +1,10 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Aice_model extends CI_model
 {
 
-
+//--Dibuat oleh Argo dwi renaldi NIM : 1303174098
 	public function kirimLaporan()
 	{
 
