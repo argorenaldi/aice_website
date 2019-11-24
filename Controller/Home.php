@@ -18,7 +18,7 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-
+//-- Dibuat oleh Argo dwi renaldi NIM :1303174098
 	public function __construct()
 	{
 		parent::__construct();
@@ -28,9 +28,19 @@ class Home extends CI_Controller {
 		$this->load->library('form_validation');
 	}
 
+	public function index()
+	{
+	
+		$this->load->view('template/index');
+		
+
+	
+	
+	}
+
 	public function contact_us()
 	{
-		$this->load->view('template/navbar');
+		$this->load->view('template/navbar_contactus');
 		$this->load->view('contact_us/contact_us');
 		$this->load->view('template/footer');
 
@@ -40,9 +50,18 @@ class Home extends CI_Controller {
 
 	public function bereseller()
 	{
-		$this->load->view('template/navbar');
+		$this->load->view('template/navbar_bereseller');
 		$this->load->view('bereseller/bereseller');
 		$this->load->view('template/footer');
+
+	
+	
+	}
+	public function login()
+	{
+		
+		$this->load->view('login/login');
+		
 
 	
 	
