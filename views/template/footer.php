@@ -1,3 +1,4 @@
+ <!--Dibuat oleh ARGO DWI RENALDI NIM: 1303174098 -->
 <footer id="footer">
             <div id="footer_top">
                 <div class="container-fluid">
@@ -76,8 +77,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://www.aice.co.id/assets_admin/plugins/jquery/jquery.min.js "></script>
         <script src="https://www.aice.co.id/assets_admin/plugins/bootstrap/js/popper.min.js "></script>
-        <script src="https://www.aice.co.id/assets_admin/plugins/bootstrap/js/bootstrap.min.js "></script>
-        <script src="https://www.aice.co.id/assets/plugins/bootstrap-4.2.1/dist/js/bootstrap.min.js"></script>
         <script src="https://www.aice.co.id/assets/plugins/slick-1.8.1/slick/slick.min.js"></script>
         <script src="https://www.aice.co.id/assets/plugins/magnific/dist/jquery.magnific-popup.min.js"></script>
         <script src="https://www.aice.co.id/assets/plugins/flipster/dist/jquery.flipster.min.js"></script>

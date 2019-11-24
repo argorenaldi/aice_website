@@ -24,10 +24,10 @@
                             <li class="nav-item ">
                                 <a class="nav-link" href="#">gallery</a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item active ">
                                 <a class="nav-link" href="<?= base_url(); ?>home/contact_us">Contact Us</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item ">
                                 <a class="nav-link nav_btn" href="<?= base_url(); ?>home/bereseller">Be-reseller</a>
                             </li>
 
