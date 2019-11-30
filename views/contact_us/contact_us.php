@@ -1,5 +1,6 @@
 <!--Dibuat oleh ARGO DWI RENALDI NIM: 1303174098 -->
 <div id="main_content">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
             	<div class="radius_bg"></div>
 	<section id="contact_us_page">
 		<div class="container-fluid">

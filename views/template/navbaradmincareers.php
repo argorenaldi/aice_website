@@ -1,4 +1,3 @@
- <!--Dibuat oleh ARGO DWI RENALDI NIM: 1303174098 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,13 +16,13 @@
       <a class="navbar-brand" href="#">Admin Panel</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="<?=base_url()?>admin">List Pesan</a></li>
-      <li><a href="<?=base_url()?>admin/bereseller">List request reseller</a></li>
-      <li><a href="<?=base_url()?>admin/postberita">Posting berita</a></li>
+      <li><a href="<?=base_url()?>admin">List Pesan</a></li>
+      <li ><a href="<?=base_url()?>admin/bereseller">List request reseller</a></li>
+      <li ><a href="<?=base_url()?>admin/postberita">Posting berita</a></li>
       <li><a href="<?=base_url()?>admin/news">List berita</a></li>
       <li><a href="<?=base_url()?>admin/inputan_product">Tambah Product</a></li>
       <li><a href="<?=base_url()?>admin/product">List product</a></li>
-       <li><a href="<?=base_url()?>admin/inputan_careers">Tambah Careers</a></li>
+      <li class="active"><a href="<?=base_url()?>admin/inputan_careers">Tambah Careers</a></li>
       <li><a href="<?=base_url()?>admin/careers">List careers</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">

@@ -16,7 +16,10 @@
         <input type="password" class="input-block-level" name="password" placeholder="Password">
         <center><button class="btn btn-primary" type="submit">Login</button></center>
       </form>
-
+      <center>
+        <p>usenamae : admin</p>
+      <p>password : admin</p>
+      </center>
     </div> 
     <center><p style="color: red">  <?PHP   echo $this->session->flashdata('info'); ?></p></center>
   </body>

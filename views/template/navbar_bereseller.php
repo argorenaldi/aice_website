@@ -10,19 +10,19 @@
                     <div class="collapse navbar-collapse" id="main_navbar">
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/home">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/about">About</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">news</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/news">news</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">product</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/product">product</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">gallery</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/gallery">gallery</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="<?= base_url(); ?>home/contact_us">Contact Us</a>
@@ -33,20 +33,7 @@
 
                             
                             
-                            <li class="nav-item d-none d-sm-none d-md-none d-lg-block">
-                                <a type="button" class="nav-link" data-toggle="modal" id="btn_search" data-target="#modal_search"><i class="fa fa-search"></i></a>
-                            </li>
-                            <li class="nav-item d-block d-sm-block d-md-block d-lg-none">
-                                <form action="https://www.aice.co.id/search" method="POST" role="form">
-                                    <input type="hidden" name="_token" value="YaOW96aRfaXqCJbMMCrAR0k9Y0T8gvZouqIJfWgC">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" name="title" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" required="">
-                                        <div class="input-group-append">
-                                            <button class="btn btn_submit_search" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </li>
+                
                         </ul>
                     </div>
                 </div>

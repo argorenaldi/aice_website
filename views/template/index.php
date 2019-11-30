@@ -11,7 +11,7 @@
   <div class="container text-center">
     <h2 class="text-left">Selamat datang silahkan pilih akses.</h2>
      	<a href="<?=base_url()?>admin" class="btn btn-info" role="button">Admin</a>
-     	<a href="<?=base_url()?>home/contact_us" class="btn btn-info" role="button">Guest</a> 
+     	<a href="<?=base_url()?>home/home" class="btn btn-info" role="button">Guest</a> 
   </div>
 </div>
 </body>

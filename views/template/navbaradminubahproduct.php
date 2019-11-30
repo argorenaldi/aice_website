@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Admin Panel</title>
+  <title>Ubah Product</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -17,14 +17,14 @@
       <a class="navbar-brand" href="#">Admin Panel</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="<?=base_url()?>admin">List Pesan</a></li>
-      <li><a href="<?=base_url()?>admin/bereseller">List request reseller</a></li>
+      <li><a href="<?=base_url()?>admin">List Pesan</a></li>
+      <li ><a href="<?=base_url()?>admin/bereseller">List request reseller</a></li>
       <li><a href="<?=base_url()?>admin/postberita">Posting berita</a></li>
-      <li><a href="<?=base_url()?>admin/news">List berita</a></li>
-      <li><a href="<?=base_url()?>admin/inputan_product">Tambah Product</a></li>
-      <li><a href="<?=base_url()?>admin/product">List product</a></li>
-       <li><a href="<?=base_url()?>admin/inputan_careers">Tambah Careers</a></li>
-      <li><a href="<?=base_url()?>admin/careers">List careers</a></li>
+       <li><a href="<?=base_url()?>admin/news">List berita</a></li>
+       <li><a href="<?=base_url()?>admin/inputan_product">Tambah Product</a></li>
+        <li><a href="<?=base_url()?>admin/product">List product</a></li>
+         <li><a href="<?=base_url()?>admin/inputan_careers">Tambah Careers</a></li>
+        <li><a href="<?=base_url()?>admin/careers">List careers</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="<?=base_url()?>welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>

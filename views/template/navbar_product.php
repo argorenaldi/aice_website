@@ -13,27 +13,27 @@
                                 <a class="nav-link" href="<?= base_url(); ?>home/home">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="<?= base_url(); ?>home/about">About</a>
+                                <a class="nav-link" href="<?= base_url(); ?>home/About">About</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="<?= base_url(); ?>home/news">news</a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item  active">
                                 <a class="nav-link" href="<?= base_url(); ?>home/product">product</a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item">
                                 <a class="nav-link" href="<?= base_url(); ?>home/gallery">gallery</a>
                             </li>
-                            <li class="nav-item active ">
+                            <li class="nav-item">
                                 <a class="nav-link" href="<?= base_url(); ?>home/contact_us">Contact Us</a>
                             </li>
-                            <li class="nav-item ">
+                            <li class="nav-item">
                                 <a class="nav-link nav_btn" href="<?= base_url(); ?>home/bereseller">Be-reseller</a>
                             </li>
 
                             
                             
-                    
+                            
                         </ul>
                     </div>
                 </div>
